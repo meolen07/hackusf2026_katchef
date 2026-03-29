@@ -1,8 +1,5 @@
 # KatChef
 
-<p align="center">
-  <img src="frontend/assets/readme/katchef-readme-hero.png" alt="KatChef brand" width="360" />
-</p>
 **Turn your fridge into dinner.**
 
 KatChef is an AI-powered cooking companion that helps people go from fridge chaos to realistic meal ideas in a calm, delightful way.
