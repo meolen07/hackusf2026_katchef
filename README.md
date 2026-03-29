@@ -27,16 +27,16 @@ KatChef solves that by combining:
 ## Core Experience
 
 ### KatLens
-Take a photo of ingredients and let KatChef detect what is in the image.
+Take a photo of the ingredients and let KatChef detect what is in the image.
 
 ### MyFridge
 Keep a living inventory of what you already have, search it quickly, and clean it up before things go to waste.
 
 ### Chat with KatChef
 Ask broad questions like:
-- "Give me a healthy dinner idea"
+- "Give me a healthy dinner idea."
 - "What should I use before it goes bad?"
-- "Turn my fridge into lunch"
+- "Turn my fridge into lunch."
 
 KatChef responds with realistic recipes, concise cooking tips, and step-by-step ideas.
 
@@ -110,7 +110,7 @@ katchef1/
 
 ## Run Locally
 
-### 1. Create env file
+### 1. Create .env file
 
 ```bash
 cp .env.example .env
@@ -271,7 +271,7 @@ uvicorn backend.main:app --host ${HOST:-0.0.0.0} --port ${PORT:-8081}
 ### Docker
 
 ```bash
-docker build -t katchef-api .
+docker build -t katchef-api.
 docker run --env-file .env -p 8081:8081 katchef-api
 ```
 
@@ -299,7 +299,7 @@ python3 -m compileall backend ai
 
 - verify `GET /health`
 - deploy backend
-- set production `EXPO_PUBLIC_API_BASE_URL`
+- set production `EXPO_PUBLIC_API_BASE_URL.`
 - deploy web or build mobile with EAS
 
 ## Demo Notes
@@ -320,4 +320,4 @@ KatChef is set up as:
 
 ## License
 
-Hackathon project. Add a license before open-source distribution.
+Hackathon project. This project is licensed under the MIT License. See the LICENSE file for details.
