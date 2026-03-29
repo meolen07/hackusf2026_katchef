@@ -316,7 +316,7 @@ KatChef is set up as:
 - a web app
 - a mobile app
 - a deployable backend
-- a polished hackathon / startup MVP
+- a polished hackathon MVP
 
 ## License
 
