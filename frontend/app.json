@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "KatChef",
+    "slug": "katchef",
+    "version": "1.0.0",
+    "description": "KatChef turns fridge chaos into realistic AI-assisted meals across mobile and web.",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FFF8ED",
+    "primaryColor": "#FF6B57",
+    "scheme": "katchef",
+    "plugins": [
+      "expo-camera",
+      "expo-font",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "KatChef uses your photo library so you can choose a profile avatar."
+        }
+      ]
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.katchef.app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "KatChef uses the camera to scan ingredients into your fridge.",
+        "NSPhotoLibraryUsageDescription": "KatChef uses your photo library so you can scan ingredients and update your avatar."
+      }
+    },
+    "android": {
+      "package": "com.katchef.app",
+      "permissions": [
+        "CAMERA",
+        "READ_MEDIA_IMAGES"
+      ]
+    },
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
